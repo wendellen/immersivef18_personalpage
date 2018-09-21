@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <title>PERSONAL PAGE</title>
+
+<!-- custom cursor -->
+  <script type="text/javascript">
+ 	$(document).ready(function(){
+      	$('.background').mousemove(function(e){
+          var w = $('#mycursor').outerWidth()
+          var h = $('#mycursor').outerHeight()
+           	$('#mycursor').css('left', e.clientX - w/2).css('top', e.clientY - h/2);
+      	});
+      });
+  </script>
+
+  </head>
+  <body>
+    <div class="background">
+      <div>
+        NAME: wendellen<br>
+        A/S/L: 28/f/berkeley<br>
+        OCCUPATION: n/a<br>
+        WEBSITE: <a href="http://wendellen.xyz">click me!</a><br>
+        THINGS I LIKE:
+        <li>houseplants</li>
+        <li>yoga</li>
+        <li>warmth-emitting objects</li>
+        <li>smoothies</li>
+        <li>lists</li>
+        <li>personal growth</li>
+        <li>extended eye contact</li>
+        <li>good music on good speakers</li>
+        <li>recursion<br>
+        THINGS I DON'T LIKE:
+        <li>produce going bad</li>
+        <li>networking/small talk</li>
+        <li>good music on bad speakers</li>
+        <li>stagnation<br>
+        THINGS I WANT TO LEARN:
+        <li>madmapper</li>
+        <li>css animation</li>
+        <li>js animation</li>
+        <li>cinema 4d</li>
+        <li>truly understand for loops</li>
+        <li>handstand</li>
+        THINGS I WANT TO DO:
+        <li>live in china</li>
+        <li>200 hour yoga training</li>
+        <li>grad school</li>
+        <li>"grow up" (but not really)</li>
+        <li>be super fit and strong</li>
+      </div>
+      <div id="mycursor"></div>
+    </div>
+
+  </body>
+</html>
